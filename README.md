@@ -1,1 +1,2 @@
-# Webpack Template Repo
+# GigaStonks - Stock Monitoring App
+
