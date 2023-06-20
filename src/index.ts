@@ -1,9 +1,6 @@
 import './styles/reset.css';
 import './styles/style.css';
-
-const tsString = "I'm using TypeScript";
-
-console.log('Hello World! %s!', tsString);
+import './modules/animations';
 
 fetch(
   'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=demo'
