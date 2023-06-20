@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Aileron Heavy';
+  src: url(../assets/aileron_font/Aileron-Heavy.otf);
+}
+
+:root {
+  --bg-colour: #282828;
+  --primary-colour: #77DD76;
+  --accent-good: #BDE7BD;
+  --accent-bad: #FFB6B3;
+  --main-bad: #FF6962;
+  --text-main: #E7E7E7;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--bg-colour);
+  color: var(--text-main);
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+/* #bg-blob {
+  position: absolute;
+  height: 300px;
+  aspect-ratio: 1;
+  background-color: var(--primary-colour);
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  flex-shrink: 0;
+}
+
+.logo-text {
+  font-family: 'Aileron Heavy';
+  font-size: 1.5rem;
+  user-select: none;
+}
+
+/* styling for the landing page */
+
+.landing-container {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-area {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20%;
+  gap: 6rem;
+}
+
+.hero-heading {
+  display: flex;
+  flex-direction: column;
+}
+
+#searchInput {
+  width: 35%;
+  height: 2rem;
+  background-color: var(--bg-colour);
+  color: var(--text-main);
+  border-radius: 5px;
+}
+
+.bottom-area {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-area {
+  width: 12rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.preview-card {
+  height: 6rem;
+  background-color: #FF6962;
+  border-radius: 10px;
+}
+
+/* End - Styling for landing page */
